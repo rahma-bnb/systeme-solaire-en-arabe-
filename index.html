@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>النظام الشمسي - عطارد</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>النموذج - النظام الشمسي</title>
+    <link href="form.css" rel="stylesheet">
 </head>
-<body background="mercury.png">
-    <div class="container">
-        <h1>مرحبًا في كوكب عطارد</h1>
-        <div class="link-container">
-            <a href="mercury_1.html">مقدمة عن عطارد</a>
-            <a href="mercury_2.html">الخصائص الفيزيائية لعطارد</a>
-            <a href="mercury_3.html">التركيب الكيميائي والغلاف الجوي لعطارد</a>
-            <a href="mercury_4.html">اكتشافات مهمة عن عطارد</a>
-        </div>
-        <h1>مرحبًا بك في النظام الشمسي</h1>
-    <p>شكرًا لإرسال بياناتك!</p>
-    <p><a href="form.html">العودة إلى النموذج</a></p>
-        <footer>
-            <p>© 2024 - النظام الشمسي</p>
-        </footer>
-    </div>
+<body background="img1.jpg">
+    <h1>املأ النموذج</h1>
+    <form action="index.html" method="GET">
+        <fieldset><legend>؟ :)ما هو كوكبك المفضل</legend>
+        <label for="name">اسمك الكامل:</label>
+        <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required>
+        <label for="planet">ما هو كوكبك المفضل؟</label>
+        <select id="planet" name="planet" required>
+            <option value="">اختر كوكبًا</option>
+            <option value="عطارد">عطارد</option>
+            <option value="الزهرة">الزهرة</option>
+            <option value="الأرض">الأرض</option>
+            <option value="المريخ">المريخ</option>
+        </select>
+        <button type="submit">إرسال</button>
+    </fieldset>
+    </form>
+    <div class="merc"></div>
 </body>
 </html>
-
