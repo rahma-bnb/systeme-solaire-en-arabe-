@@ -1,0 +1,76 @@
+/* Configuration générale */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* Définit la direction de droite à gauche */
+    text-align: right;
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Style pour le contenu principal */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #0066cc;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+main p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Liens */
+a {
+    color: white;
+    background-color: #0066cc;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: #003366;
+}
+
+/* Pour une meilleure compatibilité avec Bootstrap */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
